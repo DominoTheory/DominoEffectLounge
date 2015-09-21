@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body {
+  background-color: #403C3B;
+  color: #fff;
+  margin: 0;
+  padding: 0;}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto 30px auto;}
+
+.panel {
+  background-color: #fff;
+  color: #666;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: auto;}
+
+button {
+  border: none;}
+
+/********** LOGO **********/
+h1 {
+  text-align: auto;
+  width: 500px;
+  height: 100px;
+  margin: 30px auto 30px auto;
+  background-image: url('../img/logo.png');
+    opacity: 0.5;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+/********** TYPOGRAPHY **********/
+body, button {
+    font-family: 'Jacques Francois', serif;}
+
+h2, h3 {
+  font-weight: normal;
+  margin: 0;}
+h2 {
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 230%;
+  line-height: 1em;
+  padding: 20px 0 0 20px;}
+h3 {
+  font-size: 90%;
+  letter-spacing: 0.2em;}
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 1.4em;}
+
+a {
+    text-decoration: none;}
+
+button {
+  font-size: 90%;
+  text-align: left;
+  text-transform: uppercase;}
+
+  /*****************  No JS ***************/
+#billboard {text-align: center;}
+.js-warning {display: none;}
+
+.no-js .js-warning {
+  display: block;
+  border: 3px solid #fff;
+  text-align: center;
+  background-color: #fff;
+  color: #db5391;
+  padding: 10px;}
+
+/**********  ACCORDION **********/
+.accordion, .menu {
+  background-color: #403C3B;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 100%;}
+
+.accordion li {
+  padding: 0;
+  list-style-type: none;}
+
+.accordion-control {
+  background-color: #403C3B;
+  font-family: Arial, Brush Script MT; 
+  font-size: 140%;
+  color: #ffebcd;
+  display: center;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  margin: center;
+  border-top: 1px solid #666;
+  border-radius: 0.5em;
+    opacity: 0.5;
+}
+
+.accordion-panel {
+  display: none;}
+
+.accordion-panel p {
+  margin: 20px;}
+
+.accordion-panel img {
+  display: block;
+  clear: left;}
+
+.LLC {
+  color: #ffebcd;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 125%;
+  opacity: 0.5;
+}
+
+
+}
+
+.sliding {
+  background-color: #ffebcd;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.ContactUs {
+  color: #ffebcd;
+  text-align: left;
+  font-size: 80%;
+  background-color: #403C3B;
+  margin-right: 20px;
+  margin-left: 20px;
+    opacity: 0.5;
+}
+
+.trademark {
+  text-align: center;
+  color: #ffebcd;
+  font-family: 'Quattrocento Sans', sans-serif;
+    opacity: 0.5;
+}
